@@ -1,0 +1,40 @@
+.swiper1 {
+  width: 500px;
+  height: 300px;
+}
+.swiper2 {
+  width: 500px;
+  height: 300px;
+}
+.swipers {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+}
+.swiper-slide {
+  background-color: rgb(64, 95, 123);
+}
+.roundedbox {
+  background-color: rgb(178, 178, 178);
+  border-radius: 10px;
+  text-align: right;
+  max-width: 400px;
+  margin: auto;
+}
+.formfull {
+  margin-top: 40px;
+}
+.formfield {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-inline: 50px;
+}
+.formfield label {
+  text-align: left;
+}
+.just-validate-error-label {
+  flex-basis: 100%;
+  margin-bottom: 5px;
+}

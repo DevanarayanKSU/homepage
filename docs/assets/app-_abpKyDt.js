@@ -1,0 +1,1 @@
+import{t as e}from"./swiper-bundle-BEwCiAuC.js";var t=document.getElementById(`swiperlabel`),n=new e(`.swiper`,{direction:`horizontal`,loop:!0,pagination:{el:`.swiper-pagination`},navigation:{nextEl:`.swiper-button-next`,prevEl:`.swiper-button-prev`},scrollbar:{el:`.swiper-scrollbar`}});n.on(`slideChange`,function(){t.textContent=`Slide`+(n.realIndex+1)});

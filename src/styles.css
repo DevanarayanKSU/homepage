@@ -1,0 +1,13 @@
+.square {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  background-color: #1e2242;
+  border-radius: 10px;
+}
+.wrap {
+  position: relative;
+}
+.letter {
+  position: relative;
+}
